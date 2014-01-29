@@ -4,18 +4,18 @@ This simple cookbook allows for setting authorized keys to a server's SSH config
 
 Requirements
 ------------
-The recipe of this cookbook has only been tested with Ubuntu but should work with
+The recipe of this cookbook has only been tested with Debian and Ubuntu but should work with
 most other systems.
 
 Usage
 -----
 ### LWRP
 
-Use the LWRP `robertlemke_ssh_authorized_keys_entry` to append an entry for the
+Use the LWRP `techdivision_ssh_authorized_keys_entry` to append an entry for the
 specified host in `{user}/.ssh/authorized_keys`. For example:
 
 ```ruby
-robertlemke_ssh_authorized_keys_entry "john@example.com" do
+techdivision_ssh_authorized_keys_entry "john@example.com" do
   key "ssh-rsa AAAAB3Nza11C1yc2EAAAADAQABAAABAQDxZFQmywH5HT55fKiqkSJZ45HPLzdN8inGWsp0tAljb7r/mvQGV/xWqO4Ixy3WZs6OXJLIEufpjFtp3cCSRBw3f0dW3QiiAmABSQBkP/JGjOxdpHPKh7fPaEbuzDIJYME/wc1MoMkRyoAGyDfBM6oBhvCCmkSpIoFnzbwiHMzwOKcYUPWImCtqXF4fbl+xOtEnJfH1QVTwvDAhfeqZ7YzegT+mvWf80y+KqgvRbC1niL1O1VVx459AhfPRr4iaZcbh5nXyxhzRmTXQvXUiNgpCnfci+tsSSeZfBIiAXHhOA2sDL0+Ehl01fOQuQzxg65LIymtqMXh0iO++c5Bd53 john@example.net"
   user "root"
 end
@@ -23,7 +23,7 @@ end
 
 License and Author
 ------------------
-Copyright (c) 2013 Robert Lemke
+Copyright (c) 2014 Robert Lemke, TechDivision GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this
 software and associated documentation files (the "Software"), to deal in the

@@ -1,9 +1,9 @@
 #
-# Cookbook Name:: robertlemke-ssh
+# Cookbook Name:: techdivision-ssh
 # Recipe:: default
-# Author:: Robert Lemke <rl@robertlemke.com>
+# Author:: Robert Lemke <r.lemke@techdivision.com>
 #
-# Copyright (c) 2013 Robert Lemke
+# Copyright (c) 2014 Robert Lemke, TechDivision GmbH
 #
 # Licensed under the MIT License (the "License");
 # you may not use this file except in compliance with the License.
